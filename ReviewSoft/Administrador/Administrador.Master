@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Administrador.master.cs" Inherits="ReviewSoft.Administrador.Administrador" %>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
@@ -29,7 +29,6 @@
 
     <!-- Custom Theme Style -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
-
           <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
   </head>
@@ -51,8 +50,8 @@
                 <img src="images/img.jpg" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <span>Bienvenido</span>
-                <h2></h2>
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
               </div>
             </div>
             <!-- /menu profile quick info -->
@@ -64,45 +63,46 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i> Inicio <span class="fa fa-chevron-down"></span></a>
+                                      <li><a><i class="fa fa-home"></i> Inicio <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="..\\Administrador\Inicio.aspx">Sistema de administración</a></li>
-                      <li><a href="...\\Inicio.aspx">Sistema de busqueda</a></li>
+                      <li><a href="/Administrador/Inicio.aspx">Sistema de administración</a></li>
+                      <li><a href="/Inicio.aspx">Sistema de busqueda</a></li>
 
                     </ul>
                   </li>
                   <li><a><i class="fa fa-edit"></i> Agregar a catalogos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="..\\Administrador\Nuevos\Nueva_app.aspx">Aplicaciones (Software)</a></li>
-                      <li><a href="..\\Administrador\Nuevos\Nueva_Categoria.aspx">Categorias de Aplicaciones</a></li>
-                      <li><a href="..\\Administrador\Nuevos\Nueva_Empresa.aspx">Empresas</a></li>
-                      <li><a href="..\\Administrador\Nuevos\Nueva_Licencia.aspx">Licencias de Uso</a></li>
-                      <li><a href="..\\Administrador\Nuevos\Nueva_Metrica.aspx">Metricas</a></li>
-                      <li><a href="..\\Administrador\Nuevos\Nueva_Profesion">Profesiones</a></li>
+                      <li><a href="/Administrador/Nuevos/Nueva_app.aspx">Aplicaciones (Software)</a></li>
+                      <li><a href="/Administrador/Nuevos/Nueva_Categoria.aspx">Categorias de Aplicaciones</a></li>
+                      <li><a href="/Administrador/Nuevos/Nueva_Empresa.aspx">Empresas</a></li>
+                      <li><a href="/Administrador/Nuevos/Nueva_Licencia.aspx">Licencias de Uso</a></li>
+                      <li><a href="/Administrador/Nuevos/Nueva_Metrica.aspx">Metricas</a></li>
+                      <li><a href="/Administrador/Nuevos/Nueva_Profesion">Profesiones</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Administrar Catalogos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="..\\Administrador\Editar\Aplicaciones.aspx">Aplicaciones</a></li>
-                      <li><a href="..\\Administrador\Editar\Categorias.aspx">Categorias de Aplicaciones</a></li>
-                      <li><a href="..\\Administrador\Editar\Empresas.aspx">Empresas</a></li>
-                      <li><a href="..\\Administrador\Editar\Licencias.aspx">Licencias de Uso</a></li>
-                      <li><a href="..\\Administrador\Editar\Metricas.aspx">Metricas</a></li>
-                      <li><a href="..\\Administrador\Editar\Profesiones.aspx">Profesiones</a></li>
+                      <li><a href="/Administrador/Editar/Aplicaciones.aspx">Aplicaciones</a></li>
+                      <li><a href="/Administrador/Editar/Categorias.aspx">Categorias de Aplicaciones</a></li>
+                      <li><a href="/Administrador/Editar/Empresas.aspx">Empresas</a></li>
+                      <li><a href="/Administrador/Editar/Licencias.aspx">Licencias de Uso</a></li>
+                      <li><a href="/Administrador/Editar/Metricas.aspx">Metricas</a></li>
+                      <li><a href="/Administrador/Editar/Profesiones.aspx">Profesiones</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-table"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="..\\Administrador\Usuarios\Nuevo_Usuario.aspx">Nuevo Usuario</a></li>
-                      <li><a href="..\\Administrador\Usuarios\Administrar-Usuarios.aspx">Administrar</a></li>
+                      <li><a href="/Administrador/Usuarios/Nuevo_Usuario.aspx">Nuevo Usuario</a></li>
+                      <li><a href="/Administrador/Usuarios/Administrar-Usuarios.aspx">Administrar</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-bar-chart-o"></i> Reportes <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="">Proximamente...</a></li>
-
+                      <li><a href="/Administrador/Inicio.aspx">Proximamente...</a></li>
                     </ul>
                   </li>
+                </ul>
+              </div>
 
             </div>
             <!-- /sidebar menu -->
@@ -118,7 +118,7 @@
               <a data-toggle="tooltip" data-placement="top" title="Lock">
                 <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
               </a>
-              <a data-toggle="tooltip" data-placement="top" title="Cerrar Sesion" href="..\\CerrarSesion.aspx">
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
                 <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
               </a>
             </div>
@@ -141,10 +141,15 @@
                     <span class=" fa fa-angle-down"></span>
                   </a>
                   <ul class="dropdown-menu dropdown-usermenu pull-right">
-                    <li><a href="javascript:;"> Perfil </a></li>
-                   
-                  
-                    <li><a href="..\\CerrarSesion.aspx"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                   </ul>
                 </li>
 
@@ -218,21 +223,20 @@
         </div>
         <!-- /top navigation -->
 
-                    <div>
-
+        <!-- page content -->
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
             </asp:ContentPlaceHolder>
-        </div>
+        <!-- /page content -->
 
         <!-- footer content -->
         <footer>
           <div class="pull-right">
-            ReviewSoft - Plataforma de Administración 
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
           </div>
           <div class="clearfix"></div>
         </footer>
-        <!-- /footer content --
+        <!-- /footer content -->
       </div>
     </div>
 
@@ -279,4 +283,5 @@
 	
   </body>
 </html>
+
 

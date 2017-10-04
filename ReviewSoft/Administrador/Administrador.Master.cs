@@ -11,7 +11,17 @@ namespace ReviewSoft.Administrador
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["Usuario"] != null)
+            {
+                if (Session["Rol"].ToString() != "Administrador")
+                {
+                    Response.Redirect("/Inicio.aspx");
+                }
+            }
+            else
+            {
+                Response.Redirect("/Inicio.aspx");
+            }
         }
     }
 }
