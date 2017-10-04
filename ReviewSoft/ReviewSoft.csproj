@@ -129,6 +129,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administrador\css\maps\jquery-jvectormap-2.0.3.css" />
+    <Content Include="Administrador\images\american-express.png" />
+    <Content Include="Administrador\images\cropper.jpg" />
+    <Content Include="Administrador\images\img.jpg" />
+    <Content Include="Administrador\images\inbox.png" />
+    <Content Include="Administrador\images\mastercard.png" />
+    <Content Include="Administrador\images\media.jpg" />
+    <Content Include="Administrador\images\paypal.png" />
+    <Content Include="Administrador\images\picture.jpg" />
+    <Content Include="Administrador\images\prod-1.jpg" />
+    <Content Include="Administrador\images\prod-2.jpg" />
+    <Content Include="Administrador\images\prod-3.jpg" />
+    <Content Include="Administrador\images\prod-4.jpg" />
+    <Content Include="Administrador\images\prod-5.jpg" />
+    <Content Include="Administrador\images\user.png" />
+    <Content Include="Administrador\images\visa.png" />
+    <Content Include="Administrador\Inicio.aspx" />
+    <Content Include="Administrador\js\datepicker\daterangepicker.js" />
+    <Content Include="Administrador\js\moment\moment.min.js" />
     <Content Include="build\css\custom.css" />
     <Content Include="build\css\custom.min.css" />
     <Content Include="build\images\back_disabled.png" />
@@ -173,6 +192,7 @@
     <Content Include="fonts\FontAwesome.otf" />
     <Content Include="bower.json" />
     <Content Include="package.json" />
+    <Content Include="Administrador\Administrador.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="IniciarSesion.aspx" />
     <Content Include="Inicio.aspx" />
@@ -3639,6 +3659,20 @@
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador\Administrador.Master.cs">
+      <DependentUpon>Administrador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Administrador.Master.designer.cs">
+      <DependentUpon>Administrador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="CerrarSesion.aspx.cs">
@@ -3697,7 +3731,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Administrador\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
