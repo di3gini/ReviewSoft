@@ -148,6 +148,13 @@
     <Content Include="Administrador\Inicio.aspx" />
     <Content Include="Administrador\js\datepicker\daterangepicker.js" />
     <Content Include="Administrador\js\moment\moment.min.js" />
+    <Content Include="Administrador\Nuevos\Nueva_app.aspx" />
+    <Content Include="Administrador\Nuevos\Nueva_Categoria.aspx" />
+    <Content Include="Administrador\Nuevos\Nueva_Empresa.aspx" />
+    <Content Include="Administrador\Nuevos\Nueva_Licencia.aspx" />
+    <Content Include="Administrador\Nuevos\Nueva_Metrica.aspx" />
+    <Content Include="Administrador\Nuevos\Nueva_Plataforma.aspx" />
+    <Content Include="Administrador\Nuevos\Nueva_Profesion.aspx" />
     <Content Include="build\css\custom.css" />
     <Content Include="build\css\custom.min.css" />
     <Content Include="build\images\back_disabled.png" />
@@ -3672,6 +3679,55 @@
     </Compile>
     <Compile Include="Administrador\Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_app.aspx.cs">
+      <DependentUpon>Nueva_app.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_app.aspx.designer.cs">
+      <DependentUpon>Nueva_app.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Categoria.aspx.cs">
+      <DependentUpon>Nueva_Categoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Categoria.aspx.designer.cs">
+      <DependentUpon>Nueva_Categoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Empresa.aspx.cs">
+      <DependentUpon>Nueva_Empresa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Empresa.aspx.designer.cs">
+      <DependentUpon>Nueva_Empresa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Licencia.aspx.cs">
+      <DependentUpon>Nueva_Licencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Licencia.aspx.designer.cs">
+      <DependentUpon>Nueva_Licencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Metrica.aspx.cs">
+      <DependentUpon>Nueva_Metrica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Metrica.aspx.designer.cs">
+      <DependentUpon>Nueva_Metrica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Plataforma.aspx.cs">
+      <DependentUpon>Nueva_Plataforma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Plataforma.aspx.designer.cs">
+      <DependentUpon>Nueva_Plataforma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Profesion.aspx.cs">
+      <DependentUpon>Nueva_Profesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Nuevos\Nueva_Profesion.aspx.designer.cs">
+      <DependentUpon>Nueva_Profesion.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />

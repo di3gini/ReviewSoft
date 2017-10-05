@@ -15,12 +15,12 @@ namespace ReviewSoft.Administrador
             {
                 if (Session["Rol"].ToString() != "Administrador")
                 {
-                    Response.Redirect("/Inicio.aspx");
+                    //Response.Redirect("/Inicio.aspx");
                 }
             }
             else
             {
-                Response.Redirect("/Inicio.aspx");
+                //Response.Redirect("/Inicio.aspx");
             }
         }
     }
