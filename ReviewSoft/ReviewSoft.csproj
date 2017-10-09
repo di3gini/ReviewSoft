@@ -130,6 +130,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Administrador\css\maps\jquery-jvectormap-2.0.3.css" />
+    <Content Include="Administrador\Editar\Aplicaciones.aspx" />
+    <Content Include="Administrador\Editar\Categorias.aspx" />
+    <Content Include="Administrador\Editar\Empresas.aspx" />
+    <Content Include="Administrador\Editar\Licencias.aspx" />
+    <Content Include="Administrador\Editar\Metricas.aspx" />
+    <Content Include="Administrador\Editar\Plataforma.aspx" />
+    <Content Include="Administrador\Editar\Profesiones.aspx" />
     <Content Include="Administrador\images\american-express.png" />
     <Content Include="Administrador\images\cropper.jpg" />
     <Content Include="Administrador\images\img.jpg" />
@@ -3673,6 +3680,55 @@
     <Compile Include="Administrador\Administrador.Master.designer.cs">
       <DependentUpon>Administrador.Master</DependentUpon>
     </Compile>
+    <Compile Include="Administrador\Editar\Aplicaciones.aspx.cs">
+      <DependentUpon>Aplicaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Aplicaciones.aspx.designer.cs">
+      <DependentUpon>Aplicaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Editar\Categorias.aspx.cs">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Categorias.aspx.designer.cs">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Editar\Empresas.aspx.cs">
+      <DependentUpon>Empresas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Empresas.aspx.designer.cs">
+      <DependentUpon>Empresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Editar\Licencias.aspx.cs">
+      <DependentUpon>Licencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Licencias.aspx.designer.cs">
+      <DependentUpon>Licencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Editar\Metricas.aspx.cs">
+      <DependentUpon>Metricas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Metricas.aspx.designer.cs">
+      <DependentUpon>Metricas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Editar\Plataforma.aspx.cs">
+      <DependentUpon>Plataforma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Plataforma.aspx.designer.cs">
+      <DependentUpon>Plataforma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Editar\Profesiones.aspx.cs">
+      <DependentUpon>Profesiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Editar\Profesiones.aspx.designer.cs">
+      <DependentUpon>Profesiones.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Administrador\Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3731,6 +3787,7 @@
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Catalogos_Datos.cs" />
     <Compile Include="CerrarSesion.aspx.cs">
       <DependentUpon>CerrarSesion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
